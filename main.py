@@ -4,7 +4,7 @@ import telebot
 
 # test.superpuperfunc()
 
-bot = telebot.TeleBot('8560715077:AAF57e5hL5oXvHD-9hNzA-KOPLbF7wp9eWE')
+bot = telebot.TeleBot('8560715077:AAEv6xw5l3RiQZqj_VwK5v6phn_jEMEXodc')
 ADMIN_CHAT_ID = 1318143866
 # cute_cat_url = "https://cs12.pikabu.ru/post_img/2022/06/10/6/1654851267120726566.jpg"
 
