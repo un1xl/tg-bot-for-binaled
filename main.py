@@ -1,12 +1,19 @@
+import os
+from dotenv import load_dotenv
 import telebot
+
+load_dotenv()
+
+bot = telebot.TeleBot(os.getenv("BOT_TOKEN"))
+
 # import test
 # import time
 
 # test.superpuperfunc()
 
-bot = telebot.TeleBot('8560715077:AAEv6xw5l3RiQZqj_VwK5v6phn_jEMEXodc')
+
 ADMIN_CHAT_ID = 1318143866
-# cute_cat_url = "https://cs12.pikabu.ru/post_img/2022/06/10/6/1654851267120726566.jpg"
+# cute_cat_url = "https://static-cdn.jtvnw.net/jtv_user_pictures/c7e6c0b0-f66c-4cc2-9fba-be09fcd4e646-profile_image-300x300.png"
 
 # Переменная для хранения chat_id последнего пользователя
 
